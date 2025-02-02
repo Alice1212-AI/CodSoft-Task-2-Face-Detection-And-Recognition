@@ -6,8 +6,11 @@ This project implements real-time face detection and recognition using OpenCV, M
 Features:
 
 ✔ Real-time face detection using MediaPipe and Haar Cascade
+
 ✔ Face recognition using face_recognition library
+
 ✔ Bounding boxes for detected faces with recognition results
+
 ✔ Works with live webcam feed
 
 Requirements:
@@ -18,22 +21,26 @@ pip install opencv-python mediapipe face-recognition numpy
 Usage:
 
 1. Replace "yu67.png" with your reference image for face recognition.
+ 
 2. Run the script:
+3. python face_detection.py
 
-python face_detection.py
-
-3. The webcam feed will open, detecting faces and recognizing the reference image.
-4. Press 'q' to exit.
+4. The webcam feed will open, detecting faces and recognizing the reference image.
+ 
+5. Press 'q' to exit.
 
 How It Works
 
 Face Detection: Uses both MediaPipe and Haar Cascade for accurate face detection.
+
 Face Recognition: Compares detected faces with the reference face encoding using face_recognition.
 
 Bounding Boxes:
 
 Green: Haar Cascade detected faces
+
 Red: MediaPipe detected faces
+
 Match/No Match: Displayed for recognized faces
 
 Example Output
