@@ -46,3 +46,12 @@ Match/No Match: Displayed for recognized faces
 # Example Output
 
 When a face is detected and recognized, it displays "Match!" or "No Match" over the detected face.
+
+# Demo
+
+![image](https://github.com/user-attachments/assets/1966f195-60c6-4f85-90e1-54177a51dec8)
+
+![image](https://github.com/user-attachments/assets/c45fd7bb-d8a7-4387-9e93-b17dea021cbb)
+
+
+
